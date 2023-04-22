@@ -1,5 +1,5 @@
 var artist;
-fetch("../archiver_dataspace/storage/myprofile.json")
+fetch("../archiver_dataspace/storage/producerpr.json")
     .then((response) => response.json())
     .then((json) => {
         for (let i = 0; i < json.artist.length; i++) {
