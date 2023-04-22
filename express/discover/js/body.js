@@ -36,6 +36,6 @@ fetch("../../archiver_dataspace/storage/producerpr.json")
                 "<h2>"+prf_nameview+"</h2>"+
                 "<div><img src='"+prf["avatar"]+"' style='padding: 100px, 0px; height: 100px; border-radius: 10px; float: left;' alt='Avatar'/></div>"+
                 "<font color='gray' style=''><div>生日：<font color='#fffaf0'>"+prf["birth"]+"</font> | 社交方式："+tmp_soc+"<br>"+prf_wroteview+"<br>自我介绍：<font color='#fffaf0'>"+prf["introduce"]+"</font></div></font>"+
-                "<br></div><br>"
+                "<br></div>"
         }
     });
