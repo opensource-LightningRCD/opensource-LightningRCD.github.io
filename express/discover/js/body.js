@@ -29,13 +29,14 @@ fetch("../../archiver_dataspace/storage/producerpr.json")
             }
             tmp_soc = tmp_soc.slice(0, -2);
 
+            var tmp_socview = (tmp_soc !== "") ? "| 社交方式："+tmp_soc : "";
             var prf_wroteview = ((tmp_repworks !== "") ? "代表作：<font color='white'>"+tmp_repworks+"</font>" : "") + "<br>" + ((tmp_lyr !== "") ? "代表歌词：<font color='white'>"+tmp_lyr+"</font>" : "");
             var prf_nameview = (prf_othername !== "") ? prf["name"]+" <font color='gray' style='font-size: 15px'>("+prf_othername+")</font>" : prf["name"]
 
             document.getElementById("ArtistListFor4").innerHTML += "<div id='artist_"+prf["name"]+"'>"+
-                "<h2>"+prf_nameview+"</h2>"+
+                "<br><h2>"+prf_nameview+"</h2>"+
                 "<div><img src='"+prf["avatar"]+"' style='padding: 100px, 0px; height: 100px; border-radius: 10px; float: left;' alt='Avatar'/></div>"+
-                "<font color='gray' style=''><div>生日：<font color='#fffaf0'>"+prf["birth"]+"</font> | 社交方式："+tmp_soc+"<br>"+prf_wroteview+"<br>自我介绍：<font color='#fffaf0'>"+prf["introduce"]+"</font></div></font>"+
+                "<font color='gray' style=''><div>生日：<font color='#fffaf0'>"+prf["birth"]+"</font> "+tmp_socview+"<br>"+prf_wroteview+"<br>自我介绍：<font color='#fffaf0'>"+prf["introduce"]+"</font></div></font>"+
                 "<br></div>"
         }
     });
