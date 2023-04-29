@@ -1,5 +1,5 @@
 var artist;
-fetch("../../archiver_dataspace/storage/producerpr.json")
+fetch("../../../archiver_dataspace/storage/producerpr.json")
     .then((response) => response.json())
     .then((json) => {
         document.getElementById("discover_artist_count").innerHTML = "现在有 <font color='#6495ed' title='Thanks for Artist in This RCD.'>"+json.artist.length+"</font> 位艺术家加入我们了！";
