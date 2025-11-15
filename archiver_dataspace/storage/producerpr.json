@@ -1,15 +1,15 @@
 {
-  "artist": ["WerewolfwolfyXD"],
+  "artist": [""],
   "artist_introductions": {
     "WerewolfwolfyXD": {
-      "name": "WerewolfwolfyXD",
-      "avatar": "http://p1.music.126.net/9HjsdRpL7ET4Y2WtpCxGKw==/109951168525000541.jpg",
-      "other_name": ["对己无能不自医", "神田纯一GiGi", "WwWNH"],
-      "birth": "2009-07-15",
-      "rep_works": ["<a onclick=window.open('https://music.163.com/#/song?id=1871891878');>Bear</a>", "<a onclick=window.open('https://music.163.com/#/song?id=1984273015');>You Leave Me Away (feat. AVANNA)</a>"],
-      "rep_lyr": ["<a style='white-space: nowarp;'>“”</a>"],
-      "introduce": "I Think I Just Die",
-      "social_cmc": ["<a onclick=window.open('https://space.bilibili.com/360357453') style='color:skyblue;'>BiliBili</a>", "<a onclick=window.open('https://music.163.com/#/artist?id=48911165') style='color:red;'>网易云音乐</a>"]
+      "name": "",
+      "avatar": "",
+      "other_name": [""],
+      "birth": "",
+      "rep_works": [""],
+      "rep_lyr": [""],
+      "introduce": "",
+      "social_cmc": [""]
     }
   }
 }
